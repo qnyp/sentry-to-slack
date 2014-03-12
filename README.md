@@ -1,4 +1,4 @@
-# setry-to-slack
+# sentry-to-slack
 
 This is a rack application receives a webhooks request from [Sentry](https://getsentry.com/) and notify it to [Slack](https://slack.com/).
 

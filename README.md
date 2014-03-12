@@ -2,6 +2,8 @@
 
 This is a rack application receives a webhooks request from [Sentry](https://getsentry.com/) and notify it to [Slack](https://slack.com/).
 
+![Screenshot](screenshot.png)
+
 ## Prerequisite to deployment
 
 * Heroku account and Heroku Toolbelt

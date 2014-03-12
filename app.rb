@@ -22,9 +22,7 @@ class App
   end
 
   def notify_to_slack(request)
-    # [ERROR] ural ActionView::Template::Error: '' is an invalid hashtag
     json = JSON.parse(request.body.read)
-    p json  # DEBUG
     project_name = json['project_name']
     message = json['message']
     level = json['level']

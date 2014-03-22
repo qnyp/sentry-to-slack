@@ -1,5 +1,7 @@
 # sentry-to-slack
 
+**FYI: NOW SLACK HAS OFFICIAL SENTRY INTEGRATION. USE [ https://my.slack.com/services/new/sentry](https://my.slack.com/services/new/sentry)**
+
 This is a rack application receives a webhooks request from [Sentry](https://getsentry.com/) and notify it to [Slack](https://slack.com/).
 
 ![Screenshot](screenshot.png)
